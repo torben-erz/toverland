@@ -24,9 +24,9 @@ echo ""
 echo ""
 echo "================================"
 echo "Downloading scripts ..."
-wget https://raw.githubusercontent.com/torben-erz/toverland-pi/master/install_opencv4.sh
-wget https://raw.githubusercontent.com/torben-erz/toverland-pi/master/install_gpio.sh
-wget https://raw.githubusercontent.com/torben-erz/toverland-pi/master/install_picamera.sh
+wget https://raw.githubusercontent.com/torben-erz/toverland/master/install_opencv4.sh
+wget https://raw.githubusercontent.com/torben-erz/toverland/master/install_gpio.sh
+wget https://raw.githubusercontent.com/torben-erz/toverland/master/install_picamera.sh
 
 
 # Step 3: Execute installation script OpenCV
