@@ -19,25 +19,33 @@ sudo apt autoremove
 echo ""
 echo "================================"
 echo "Downloading scripts ..."
+wget https://raw.githubusercontent.com/torben-erz/raspberry-pi-scripts/master/python3.sh
 wget https://raw.githubusercontent.com/torben-erz/raspberry-pi-scripts/master/gpio.sh
 wget https://raw.githubusercontent.com/torben-erz/raspberry-pi-scripts/master/picamera.sh
 
 
-# Step 3: Execute installation script GPIO
+# Step 3: Execute installation script Python 3
+echo ""
+echo "================================"
+echo "Execute Installation of Python 3 ..."
+sh ./python3.sh
+
+
+# Step 4: Execute installation script GPIO
 echo ""
 echo "================================"
 echo "Execute Installation of GPIO ..."
 sh ./gpio.sh
 
 
-# Step 4: Execute installation script PiCamera
+# Step 5: Execute installation script PiCamera
 echo ""
 echo "================================"
 echo "Execute Installation of PiCamera ..."
 sh ./picamera.sh
 
 
-# Step 5: Download and install software
+# Step 6: Download and install software
 echo ""
 echo "================================"
 echo "Download and install software ..."
@@ -48,7 +56,8 @@ fi
 unzip -o toverland.zip
 
 
-# Step 6: Delete downloads
+# Step 7: Delete downloads
+rm python3.sh
 rm gpio.sh
 rm picamera.sh
 rm toverland.zip
@@ -60,4 +69,4 @@ sleep 5
 
 
 # Reboot
-#sudo reboot
+sudo reboot
