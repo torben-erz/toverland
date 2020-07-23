@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "Welcome to Toverland-Pi Installation Script for Raspbian"
+echo "Welcome to Toverland-Wand Installation Script for Raspbian"
 echo "Maintained by Torben Daniel Erz (torben.erz@gmail.com)"
 
 
