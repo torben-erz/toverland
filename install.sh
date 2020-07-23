@@ -59,4 +59,4 @@ sleep 5
 
 
 # Reboot
-sudo reboot
+#sudo reboot
