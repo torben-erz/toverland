@@ -44,7 +44,7 @@ wget https://raw.githubusercontent.com/torben-erz/toverland-wand/master/toverlan
 if [ toverland ]; then
     rm -rf toverland
 fi
-unzip -O toverland.zip
+unzip -o toverland.zip
 
 
 # Step 6: Delete downloads
