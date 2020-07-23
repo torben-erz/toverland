@@ -26,14 +26,14 @@ wget https://raw.githubusercontent.com/torben-erz/raspberry-pi-scripts/master/pi
 echo ""
 echo "================================"
 echo "Execute Installation of GPIO ..."
-sh ./install_gpio.sh
+sh ./gpio.sh
 
 
 # Step 4: Execute installation script PiCamera
 echo ""
 echo "================================"
 echo "Execute Installation of PiCamera ..."
-sh ./install_picamera.sh
+sh ./picamera.sh
 
 
 # Step 5: Download and install software
@@ -48,8 +48,8 @@ unzip -O toverland.zip
 
 
 # Step 6: Delete downloads
-rm install_gpio.sh
-rm install_picamera.sh
+rm gpio.sh
+rm picamera.sh
 rm toverland.zip
 
 
@@ -59,4 +59,4 @@ sleep 5
 
 
 # Reboot
-#sudo reboot
+sudo reboot
