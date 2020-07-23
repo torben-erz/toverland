@@ -40,7 +40,7 @@ sh ./install_picamera.sh
 echo ""
 echo "================================"
 echo "Download and install software ..."
-wget https://raw.githubusercontent.com/torben-erz/toverland/master/toverland.zip -O toverland.zip
+wget https://raw.githubusercontent.com/torben-erz/toverland-wand/master/toverland.zip -O toverland.zip
 if [ toverland ]; then
     rm -rf toverland
 fi
